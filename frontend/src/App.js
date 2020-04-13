@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import Header from './Header';
+import './global.css'
+import Routes from './routes'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello OmniStack.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Routes />
+  );
+
+}
+/*
+
+import React, { useState } from 'react';
+// componente do react - função que retorna um html
+// html dentro do codigo js => JSX - JavaScript XML
+// atualização ao salvar => live reaload
+function App() {
+  const [counter, setCounter] = useState(0); //0 = primeiro valor
+
+  function increment() {
+    setCounter(counter + 1);
+  }
+
+
+  return (
+    <div>
+      <Header>Contador: {counter}</Header>
+      <button onClick={increment}>Incrementar</button>
     </div>
+
   );
 }
+*/
 
+/*
+function App() {
+  return (
+    <Header title="Semana OmniStack" />
+  );
+}
+*/
 export default App;

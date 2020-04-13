@@ -50,3 +50,11 @@ desenvolvimento
 	- > npm install cors
 
 
+- instalar pacote de fontes
+> npm install react-icons
+
+- instalar rotas no react
+> npm install react-router-dom
+
+
+
