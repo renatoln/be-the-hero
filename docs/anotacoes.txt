@@ -56,5 +56,8 @@ desenvolvimento
 - instalar rotas no react
 > npm install react-router-dom
 
+- Instalar o cliente http para fazer a chamada ao serviço
+> npm install axios
+
 
 
